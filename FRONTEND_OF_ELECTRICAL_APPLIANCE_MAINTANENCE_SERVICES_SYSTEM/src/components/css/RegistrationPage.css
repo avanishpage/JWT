@@ -1,0 +1,74 @@
+.registration-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .registration-form h2 {
+    font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .registration-form input,
+  .registration-form select {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-form select {
+    appearance: none;
+    background-color: white;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6'%3E%3Cpath fill='%23333' d='M6 6L0 0h12'/%3E%3C/svg%3E"),
+      linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right 0.7em top 50%, 0 0;
+    background-size: 0.65em auto, 100%;
+  }
+  
+  .registration-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 16px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .registration-form span  {
+    color: red;
+  }
+
+  .label-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .label-container label {
+    margin-right: 10px; /* Add some space between labels and inputs */
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  
+  
+  

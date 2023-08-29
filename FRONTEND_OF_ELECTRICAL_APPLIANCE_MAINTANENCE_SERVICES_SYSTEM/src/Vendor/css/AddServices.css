@@ -1,0 +1,102 @@
+/* 
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+  }
+  
+
+  select {
+    appearance: none;
+    background: transparent;
+  
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+  }
+  
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+   */
+
+   .add-service-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add-service-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add-service-form {
+    width: 100%;
+}
+
+.add-service-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.label-cell {
+    width: 100px;
+    padding: 8px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.input-cell {
+    padding: 8px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    
+    border-radius: 4px;
+}
+
+.add-service-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-service-button:hover {
+    background-color: #0056b3;
+}

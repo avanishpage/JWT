@@ -1,0 +1,62 @@
+/* AddImage.css */
+
+.add-image-container {
+    max-width: 400px;
+    margin: 150px auto 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.add-image-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-image-form input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.add-image-container h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-image-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 16px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-image-form button[type='submit']:hover {
+    background-color: #0056b3;
+}
+
+.add-image-container span {
+    color: red;
+}
+
+.selected-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.selected-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

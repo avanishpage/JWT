@@ -1,0 +1,42 @@
+/* Apply styling to the entire vendor services container */
+.vendor-services {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the vendor services table */
+.service-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.service-table th, .service-table td {
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the update and delete buttons */
+.update-button,
+.delete-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}

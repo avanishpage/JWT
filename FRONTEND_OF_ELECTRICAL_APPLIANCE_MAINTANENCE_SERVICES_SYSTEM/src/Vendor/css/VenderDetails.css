@@ -1,0 +1,33 @@
+
+.user-details {
+  padding: 20px;
+}
+
+.details-table {
+  width: 40%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.details-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.field-name {
+  font-weight: bold;
+}
+
+.action-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#delete-button {
+  background-color: #dc3545;
+  padding: 10px 20px;
+}
